@@ -18,3 +18,4 @@ jobs:
             "https://www.venturetakes.com/api/ingest/run-if-stale")
           echo "HTTP $code"; cat out.json; echo
           case "$code" in 200|429) exit 0;; *) exit 1;; esac
+# schedule registered 2026-10-11
